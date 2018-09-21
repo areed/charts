@@ -46,7 +46,7 @@ globalConfig:
   configDir: /anchore_service_config
 
   dbConfig:
-    timeout: 129
+    timeout: 130
     # Use ssl, but the default postgresql config in helm's stable repo does not support ssl on server side, so this should be set for external dbs only for the time being
     ssl: false
     connectionPoolSize: 30
